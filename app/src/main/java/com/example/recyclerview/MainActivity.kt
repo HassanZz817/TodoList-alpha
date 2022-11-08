@@ -15,14 +15,14 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         var todoList = mutableListOf(
-            Todo("2 hours of code", false),
-            Todo("Social media management",false),
-            Todo("Workout",false),
-            Todo("Read",false),
-            Todo("Meditate",false),
-            Todo("Connect With family",false),
-            Todo("write Content For Youtube",false),
-            Todo("make Online Business with Hussam",false)
+            Todo("2 hours of code⌨️", false),
+            Todo("Social media management\uD83D\uDC26",false),
+            Todo("Workout\uD83C\uDFCB",false),
+            Todo("Read\uD83D\uDCDA",false),
+            Todo("Meditate\uD83E\uDDD8\u200D♂️",false),
+            Todo("Connect With family\uD83D\uDC6A",false),
+            Todo("write Content For Youtube✍️",false),
+            Todo("make Online Business with Hussam\uD83E\uDDD1\u200D\uD83D\uDCBC",false)
         )
         val adapter = ToDoAdapter(todoList)
         rvTodos.adapter = adapter
